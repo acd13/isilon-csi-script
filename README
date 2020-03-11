@@ -12,6 +12,9 @@ Pre-requisites for running the scripts:
 4. Some kubernetes background would help if the script doesn't work for you as intended!
 5. Install the components - docker, k8s, and CSI Driver in that order
 6. All this is valid for the Isilon CSI Driver 1.0 version
+7. Run everything as root of your VM host (/root will be your base path)
+
+
 There are three scripts provided here:
 1. docker_install.sh
 This script installs latest version of docker on the provided Linux host
